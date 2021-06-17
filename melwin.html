@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script>
+			const add = () => document.getElementById('Ans').value =  parseFloat(document.getElementById('Inp1').value) + parseFloat(document.getElementById('Inp2').value);
+			const sub = () => document.getElementById('Ans').value =  parseFloat(document.getElementById('Inp1').value) - parseFloat(document.getElementById('Inp2').value);
+			const mul = () => document.getElementById('Ans').value =  parseFloat(document.getElementById('Inp1').value) * parseFloat(document.getElementById('Inp2').value);
+			const div = () => document.getElementById('Ans').value =  parseFloat(document.getElementById('Inp1').value) / parseFloat(document.getElementById('Inp2').value);
+		</script>
+        <link rel='stylesheet' href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+		<style>
+         
+			
+		</style>
+        
+		<title> Melwin's Calculator</title>
+	</head>
+
+	<body>
+		<center>
+			<h2> <u><em>Basic Calculator </em></u></h2>
+          <div>
+			<p><br><br>
+
+            <table>
+					<tr>
+						<th>Inputs</th>
+						<td colspan="1"style="height:100px;width:400px"> <label for="Inp1">Enter 1st Number:</label>
+                             <input type ='number' id = 'Inp1'></input></td>
+						<td style="height:100px;width:400px"><label for="Inp2">Enter 2nd Number:</label>
+                            <input type ='number' id = 'Inp2'></input></td>
+					</tr>
+					<tr>
+						<th>Operation</th>
+						<td style="height:100px;width:400px">
+							<center>
+							<button class="btn btn-outline-light btn-lg" type="submit" onclick="add()">Addition</button>
+							<button class="btn btn-outline-light btn-lg" type="submit" onclick="sub()">Subtraction</button>
+							</center>
+						</td>
+						<td style="height:100px;width:400px">
+							<center>
+							<button class="btn btn-outline-light btn-lg" type="submit" onclick="mul()">Multiplication</button>
+							<button class="btn btn-outline-light btn-lg" type="submit" onclick="div()">Division</button>
+							</center>
+						</td>
+					</tr>
+					<tr>
+						<th>Answer</th>
+						<td style="height:100px;width:100px">
+							<center>
+							Answer will appear here --> 
+							</center>
+						</td>
+						<td style="height:100px;width100px">
+							<center>
+							<input id = 'Ans'></input>
+							</center>
+						</td>
+					</tr>
+				</table>
+                </p>
+                </div>
+
+		</center>
+
+	</body>
+</html>

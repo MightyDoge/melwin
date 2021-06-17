@@ -1,0 +1,45 @@
+body{
+    background:rgb(40,40,40);
+    color: white;
+    text-decoration: darkgreen;
+    font-size: 26px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+table, th, td {
+    border: 3px solid white;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+
+    
+}
+tr:hover{
+    background-color: rgb(20,20,20);
+}
+
+
+#Inp1, #Inp2, #Ans{
+color:black;
+font-weight: 1000;
+}
+input{
+    background-color: goldenrod;
+}
+
+button{
+    color: white;
+    box-shadow: 2px solid black;
+}
+
+tr{
+    background-color:rgb(30,30,30);
+}
+
+.btn{
+    size: 200px;
+}
